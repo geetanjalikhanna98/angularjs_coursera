@@ -13,7 +13,7 @@
             if(user_lunch == ""){
                 $scope.message = "Please enter data first."
             }
-            if(lunch_items.length <= 3){
+            else if(lunch_items.length <= 3){
                 $scope.message = "Enjoy!";
             }
             else{
